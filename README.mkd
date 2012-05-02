@@ -1,0 +1,12 @@
+## Gaslight Spark
+
+A starting point for Rails work.
+
+* [Compass](http://compass-style.org)
+* [Haml](http://haml-lang.com/)
+* [Zurb Foundation](http://foundation.zurb.com)
+* Layout with sidebar
+* Purty background from [Subtle Patterns](http://subtlepatterns.com/)
+* [Rspec](https://www.relishapp.com/rspec/rspec-rails/docs) with [Rspec Given](https://github.com/jimweirich/rspec-given)
+* [Cucumber](http://cukes.info/) with Capybara and Launchy
+* [Email Spec](https://github.com/bmabey/email-spec)

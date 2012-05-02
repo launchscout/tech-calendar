@@ -1,0 +1,35 @@
+!!! 5
+%html
+  %head
+    %title Base
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Podkova:400,700'
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+%body
+  .container
+    %header.row
+      .columns.twelve
+        %h1 Hi! This is the header.
+    - if flash
+      #flash.row
+        - flash.each do |level, message|
+          .flash.alert-box{class: level}
+            = message
+            %a.close{href: ""} &times;
+    #main.row
+      .columns{class: content_for?(:sidebar) ? 'eight' : 'twelve'}
+        = yield
+      - if content_for?(:sidebar)
+        .columns.four
+          = content_for(:sidebar)
+    %footer.row
+      .columns.four
+        %h5 First Column
+        %p You might say something about the site here.
+      .columns.four
+        %h5 Middle Column
+        %p Maybe some contact information?
+      .columns.four
+        %h5 Last Column
+        %p How social are you? Where are all the links?
