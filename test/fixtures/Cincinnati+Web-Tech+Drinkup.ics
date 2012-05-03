@@ -1,0 +1,267 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//RemoteApi//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-ORIGINAL-URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/i
+ cal/Cincinnati+Web-Tech+Drinkup/
+X-WR-CALNAME:Events - Cincinnati Web-Tech Drinkup
+BEGIN:VTIMEZONE
+TZID:America/New_York
+TZURL:http://tzurl.org/zoneinfo-outlook/America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20120503T170000
+DTEND;TZID=America/New_York:20120503T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, May 3 at 5:00 PM\n\nW
+ elcome to the Cincinnati Web/Tech Drinkup! The idea for this is to bridg
+ e the different "technology focused" meetups and just have a good time w
+ ith like...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drinku
+ p/events/58575782/
+CLASS:PUBLIC
+CREATED:20120330T212539Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/58575782/
+LAST-MODIFIED:20120425T210255Z
+UID:event_dzkfscyqhbfb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20120607T170000
+DTEND;TZID=America/New_York:20120607T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, June 7 at 5:00 PM\n\n
+ Welcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for this 
+ is to bridge the different "technology focused" meetups and just have a 
+ good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drink
+ up/events/60523972/
+CLASS:PUBLIC
+CREATED:20120414T031605Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60523972/
+LAST-MODIFIED:20120414T031605Z
+UID:event_dzkfscyqjbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20120705T170000
+DTEND;TZID=America/New_York:20120705T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, July 5 at 5:00 PM\n\n
+ Welcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for this 
+ is to bridge the different "technology focused" meetups and just have a 
+ good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drink
+ up/events/dzkfscyqkbhb/
+CLASS:PUBLIC
+CREATED:20120503T020206Z
+GEO:39.11;-84.50
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/dzkfscyqkbhb
+ /
+LAST-MODIFIED:20120503T020206Z
+UID:event_dzkfscyqkbhb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20120802T170000
+DTEND;TZID=America/New_York:20120802T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, August 2 at 5:00 PM\n
+ \nWelcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for thi
+ s is to bridge the different "technology focused" meetups and just have 
+ a good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dri
+ nkup/events/60524222/
+CLASS:PUBLIC
+CREATED:20120414T031820Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524222/
+LAST-MODIFIED:20120414T031820Z
+UID:event_dzkfscyqlbdb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20120906T170000
+DTEND;TZID=America/New_York:20120906T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, September 6 at 5:00 P
+ M\n\nWelcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for 
+ this is to bridge the different "technology focused" meetups and just ha
+ ve a good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-
+ Drinkup/events/60524042/
+CLASS:PUBLIC
+CREATED:20120414T031626Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524042/
+LAST-MODIFIED:20120414T031626Z
+UID:event_dzkfscyqmbjb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20121004T170000
+DTEND;TZID=America/New_York:20121004T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, October 4 at 5:00 PM\
+ n\nWelcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for th
+ is is to bridge the different "technology focused" meetups and just have
+  a good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dr
+ inkup/events/60524232/
+CLASS:PUBLIC
+CREATED:20120414T031833Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524232/
+LAST-MODIFIED:20120414T031833Z
+UID:event_dzkfscyqnbgb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20121101T170000
+DTEND;TZID=America/New_York:20121101T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, November 1 at 5:00 PM
+ \n\nWelcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for t
+ his is to bridge the different "technology focused" meetups and just hav
+ e a good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-D
+ rinkup/events/60524252/
+CLASS:PUBLIC
+CREATED:20120414T031844Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524252/
+LAST-MODIFIED:20120414T031844Z
+UID:event_dzkfscyqpbcb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20121206T170000
+DTEND;TZID=America/New_York:20121206T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, December 6 at 5:00 PM
+ \n\nWelcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for t
+ his is to bridge the different "technology focused" meetups and just hav
+ e a good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-D
+ rinkup/events/60524072/
+CLASS:PUBLIC
+CREATED:20120414T031646Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524072/
+LAST-MODIFIED:20120414T031646Z
+UID:event_dzkfscyqqbjb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20130103T170000
+DTEND;TZID=America/New_York:20130103T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, January 3 at 5:00 PM\
+ n\nWelcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for th
+ is is to bridge the different "technology focused" meetups and just have
+  a good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dr
+ inkup/events/60524322/
+CLASS:PUBLIC
+CREATED:20120414T031902Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524322/
+LAST-MODIFIED:20120414T031902Z
+UID:event_dzkfscyrcbfb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20130207T170000
+DTEND;TZID=America/New_York:20130207T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, February 7 at 5:00 PM
+ \n\nWelcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for t
+ his is to bridge the different "technology focused" meetups and just hav
+ e a good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-D
+ rinkup/events/60524122/
+CLASS:PUBLIC
+CREATED:20120414T031658Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524122/
+LAST-MODIFIED:20120414T031658Z
+UID:event_dzkfscyrdbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20130307T170000
+DTEND;TZID=America/New_York:20130307T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, March 7 at 5:00 PM\n\
+ nWelcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for this
+  is to bridge the different "technology focused" meetups and just have a
+  good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drin
+ kup/events/60524162/
+CLASS:PUBLIC
+CREATED:20120414T031707Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524162/
+LAST-MODIFIED:20120414T031707Z
+UID:event_dzkfscyrfbkb@meetup.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20120503T020206Z
+DTSTART;TZID=America/New_York:20130404T170000
+DTEND;TZID=America/New_York:20130404T190000
+STATUS:CONFIRMED
+SUMMARY:Cincinnati Web/Tech Drinkup
+DESCRIPTION:Cincinnati Web/Tech Drinkup\nThursday\, April 4 at 5:00 PM\n\
+ nWelcome to the inaugural Cincinnati Web/Tech Drinkup! The idea for this
+  is to bridge the different "technology focused" meetups and just have a
+  good time...\n\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drin
+ kup/events/60524182/
+CLASS:PUBLIC
+CREATED:20120414T031720Z
+GEO:39.11;-84.50
+LOCATION:Nicholson's Gastropub (625 Walnut Street\, Cincinnati\, OH 45202
+ )
+URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524182/
+LAST-MODIFIED:20120414T031720Z
+UID:event_dzkfscyrgbgb@meetup.com
+END:VEVENT
+END:VCALENDAR
