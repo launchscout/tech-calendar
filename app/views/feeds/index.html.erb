@@ -1,3 +1,8 @@
+<%= simple_form_for @feed do |f| %>
+  <%= f.input :uri, :label => "Feed URI" %>
+  <%= f.submit 'Add' %>
+<% end %>
+
 <% @feeds.each do |feed| %>
   <p><%= feed.name %></p>
 <% end %>

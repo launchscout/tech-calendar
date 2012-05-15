@@ -1,0 +1,233 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/ical/Cincinnati+Web-Tech+Drinkup/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 15 May 2012 02:16:49 GMT
+      server:
+      - Apache-Coyote/1.1
+      set-cookie:
+      - MEETUP_MEMBER=id=0&status=1&timestamp=1337048209&bs=0&tz=US%2FEastern&zip=&country=us&city=&state=&lat=0.0&lon=0.0&domain=&dc=&s=992c569df773c4a871ec0ca5ea4f91b998ebacc0;
+        Domain=.meetup.com; Path=/
+      - MEETUP_AFFIL=affil=meetup; Domain=.meetup.com; Expires=Fri, 29-Jun-2012 02:16:49
+        GMT; Path=/
+      - MEETUP_LANGUAGE=language=en&country=US; Domain=.meetup.com; Path=/
+      expires:
+      - '0'
+      cache-control:
+      - no-cache
+      x-meetup-server:
+      - api3.int.meetup.com
+      content-type:
+      - text/calendar;charset=UTF-8
+      content-language:
+      - en-US
+      vary:
+      - Accept-Encoding,User-Agent
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Meetup//RemoteApi//EN\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\nX-ORIGINAL-URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/i\r\n
+        cal/Cincinnati+Web-Tech+Drinkup/\r\nX-WR-CALNAME:Events - Cincinnati Web-Tech
+        Drinkup\r\nBEGIN:VTIMEZONE\r\nTZID:America/New_York\r\nTZURL:http://tzurl.org/zoneinfo-outlook/America/New_York\r\nX-LIC-LOCATION:America/New_York\r\nBEGIN:DAYLIGHT\r\nTZOFFSETFROM:-0500\r\nTZOFFSETTO:-0400\r\nTZNAME:EDT\r\nDTSTART:19700308T020000\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nTZOFFSETFROM:-0400\r\nTZOFFSETTO:-0500\r\nTZNAME:EST\r\nDTSTART:19701101T020000\r\nRRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20120607T170000\r\nDTEND;TZID=America/New_York:20120607T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        June 7 at 5:00 PM\\n\\n\r\n The Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to t\r\n alk about technology and digital marketing -
+        and\\, of course\\, drinking!\r\n  We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drinku\r\n
+        p/events/60523972/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031605Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60523972/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqjbkb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20120705T170000\r\nDTEND;TZID=America/New_York:20120705T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        July 5 at 5:00 PM\\n\\n\r\n The Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to t\r\n alk about technology and digital marketing -
+        and\\, of course\\, drinking!\r\n  We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drinku\r\n
+        p/events/63396972/\r\nCLASS:PUBLIC\r\nCREATED:20120504T124935Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/63396972/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqkbhb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20120802T170000\r\nDTEND;TZID=America/New_York:20120802T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        August 2 at 5:00 PM\\n\r\n \\nThe Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to\r\n  talk about technology and digital marketing -
+        and\\, of course\\, drinkin\r\n g! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drin\r\n
+        kup/events/60524222/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031820Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524222/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqlbdb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20120906T170000\r\nDTEND;TZID=America/New_York:20120906T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        September 6 at 5:00 P\r\n M\\n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love\r\n  to talk about technology and digital marketing
+        - and\\, of course\\, drin\r\n king! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-D\r\n
+        rinkup/events/60524042/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031626Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524042/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqmbjb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20121004T170000\r\nDTEND;TZID=America/New_York:20121004T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        October 4 at 5:00 PM\\\r\n n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love t\r\n o talk about technology and digital marketing
+        - and\\, of course\\, drinki\r\n ng! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dri\r\n
+        nkup/events/60524232/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031833Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524232/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqnbgb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20121101T170000\r\nDTEND;TZID=America/New_York:20121101T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        November 1 at 5:00 PM\r\n \\n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love \r\n to talk about technology and digital marketing
+        - and\\, of course\\, drink\r\n ing! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dr\r\n
+        inkup/events/60524252/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031844Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524252/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqpbcb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20121206T170000\r\nDTEND;TZID=America/New_York:20121206T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        December 6 at 5:00 PM\r\n \\n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love \r\n to talk about technology and digital marketing
+        - and\\, of course\\, drink\r\n ing! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dr\r\n
+        inkup/events/60524072/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031646Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524072/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqqbjb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20130103T170000\r\nDTEND;TZID=America/New_York:20130103T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        January 3 at 5:00 PM\\\r\n n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love t\r\n o talk about technology and digital marketing
+        - and\\, of course\\, drinki\r\n ng! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dri\r\n
+        nkup/events/60524322/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031902Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524322/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyrcbfb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20130207T170000\r\nDTEND;TZID=America/New_York:20130207T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        February 7 at 5:00 PM\r\n \\n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love \r\n to talk about technology and digital marketing
+        - and\\, of course\\, drink\r\n ing! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dr\r\n
+        inkup/events/60524122/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031658Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524122/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyrdbkb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20130307T170000\r\nDTEND;TZID=America/New_York:20130307T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        March 7 at 5:00 PM\\n\\\r\n nThe Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to \r\n talk about technology and digital marketing -
+        and\\, of course\\, drinking\r\n ! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drink\r\n
+        up/events/60524162/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031707Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524162/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyrfbkb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20130404T170000\r\nDTEND;TZID=America/New_York:20130404T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        April 4 at 5:00 PM\\n\\\r\n nThe Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to \r\n talk about technology and digital marketing -
+        and\\, of course\\, drinking\r\n ! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drink\r\n
+        up/events/60524182/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031720Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524182/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyrgbgb@meetup.com\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+    http_version: '1.1'
+  recorded_at: Tue, 15 May 2012 02:16:48 GMT
+- request:
+    method: get
+    uri: http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/ical/Cincinnati+Web-Tech+Drinkup/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 15 May 2012 02:16:49 GMT
+      server:
+      - Apache-Coyote/1.1
+      set-cookie:
+      - MEETUP_MEMBER=id=0&status=1&timestamp=1337048209&bs=0&tz=US%2FEastern&zip=&country=us&city=&state=&lat=0.0&lon=0.0&domain=&dc=&s=992c569df773c4a871ec0ca5ea4f91b998ebacc0;
+        Domain=.meetup.com; Path=/
+      - MEETUP_AFFIL=affil=meetup; Domain=.meetup.com; Expires=Fri, 29-Jun-2012 02:16:49
+        GMT; Path=/
+      - MEETUP_LANGUAGE=language=en&country=US; Domain=.meetup.com; Path=/
+      expires:
+      - '0'
+      cache-control:
+      - no-cache
+      x-meetup-server:
+      - api3.int.meetup.com
+      content-type:
+      - text/calendar;charset=UTF-8
+      content-language:
+      - en-US
+      vary:
+      - Accept-Encoding,User-Agent
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Meetup//RemoteApi//EN\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\nX-ORIGINAL-URL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/i\r\n
+        cal/Cincinnati+Web-Tech+Drinkup/\r\nX-WR-CALNAME:Events - Cincinnati Web-Tech
+        Drinkup\r\nBEGIN:VTIMEZONE\r\nTZID:America/New_York\r\nTZURL:http://tzurl.org/zoneinfo-outlook/America/New_York\r\nX-LIC-LOCATION:America/New_York\r\nBEGIN:DAYLIGHT\r\nTZOFFSETFROM:-0500\r\nTZOFFSETTO:-0400\r\nTZNAME:EDT\r\nDTSTART:19700308T020000\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nTZOFFSETFROM:-0400\r\nTZOFFSETTO:-0500\r\nTZNAME:EST\r\nDTSTART:19701101T020000\r\nRRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20120607T170000\r\nDTEND;TZID=America/New_York:20120607T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        June 7 at 5:00 PM\\n\\n\r\n The Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to t\r\n alk about technology and digital marketing -
+        and\\, of course\\, drinking!\r\n  We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drinku\r\n
+        p/events/60523972/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031605Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60523972/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqjbkb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20120705T170000\r\nDTEND;TZID=America/New_York:20120705T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        July 5 at 5:00 PM\\n\\n\r\n The Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to t\r\n alk about technology and digital marketing -
+        and\\, of course\\, drinking!\r\n  We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drinku\r\n
+        p/events/63396972/\r\nCLASS:PUBLIC\r\nCREATED:20120504T124935Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/63396972/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqkbhb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20120802T170000\r\nDTEND;TZID=America/New_York:20120802T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        August 2 at 5:00 PM\\n\r\n \\nThe Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to\r\n  talk about technology and digital marketing -
+        and\\, of course\\, drinkin\r\n g! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drin\r\n
+        kup/events/60524222/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031820Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524222/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqlbdb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20120906T170000\r\nDTEND;TZID=America/New_York:20120906T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        September 6 at 5:00 P\r\n M\\n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love\r\n  to talk about technology and digital marketing
+        - and\\, of course\\, drin\r\n king! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-D\r\n
+        rinkup/events/60524042/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031626Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524042/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqmbjb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20121004T170000\r\nDTEND;TZID=America/New_York:20121004T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        October 4 at 5:00 PM\\\r\n n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love t\r\n o talk about technology and digital marketing
+        - and\\, of course\\, drinki\r\n ng! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dri\r\n
+        nkup/events/60524232/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031833Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524232/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqnbgb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20121101T170000\r\nDTEND;TZID=America/New_York:20121101T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        November 1 at 5:00 PM\r\n \\n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love \r\n to talk about technology and digital marketing
+        - and\\, of course\\, drink\r\n ing! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dr\r\n
+        inkup/events/60524252/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031844Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524252/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqpbcb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20121206T170000\r\nDTEND;TZID=America/New_York:20121206T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        December 6 at 5:00 PM\r\n \\n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love \r\n to talk about technology and digital marketing
+        - and\\, of course\\, drink\r\n ing! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dr\r\n
+        inkup/events/60524072/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031646Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524072/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyqqbjb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20130103T170000\r\nDTEND;TZID=America/New_York:20130103T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        January 3 at 5:00 PM\\\r\n n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love t\r\n o talk about technology and digital marketing
+        - and\\, of course\\, drinki\r\n ng! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dri\r\n
+        nkup/events/60524322/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031902Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524322/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyrcbfb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20130207T170000\r\nDTEND;TZID=America/New_York:20130207T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        February 7 at 5:00 PM\r\n \\n\\nThe Cincinnati Web/Tech Drinkup is open to
+        all individuals who love \r\n to talk about technology and digital marketing
+        - and\\, of course\\, drink\r\n ing! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Dr\r\n
+        inkup/events/60524122/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031658Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524122/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyrdbkb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20130307T170000\r\nDTEND;TZID=America/New_York:20130307T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        March 7 at 5:00 PM\\n\\\r\n nThe Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to \r\n talk about technology and digital marketing -
+        and\\, of course\\, drinking\r\n ! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drink\r\n
+        up/events/60524162/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031707Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524162/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyrfbkb@meetup.com\r\nEND:VEVENT\r\nBEGIN:VEVENT\r\nDTSTAMP:20120515T021649Z\r\nDTSTART;TZID=America/New_York:20130404T170000\r\nDTEND;TZID=America/New_York:20130404T200000\r\nSTATUS:CONFIRMED\r\nSUMMARY:Cincinnati
+        Web/Tech Drinkup\r\nDESCRIPTION:Cincinnati Web/Tech Drinkup\\nThursday\\,
+        April 4 at 5:00 PM\\n\\\r\n nThe Cincinnati Web/Tech Drinkup is open to all
+        individuals who love to \r\n talk about technology and digital marketing -
+        and\\, of course\\, drinking\r\n ! We meet...\\n\\nDetails: http://www.meetup.com/Cincinnati-Web-Tech-Drink\r\n
+        up/events/60524182/\r\nCLASS:PUBLIC\r\nCREATED:20120414T031720Z\r\nGEO:39.11;-84.50\r\nLOCATION:Nicholson's
+        Gastropub (625 Walnut Street\\, Cincinnati\\, OH 45202\r\n )\r\nURL:http://www.meetup.com/Cincinnati-Web-Tech-Drinkup/events/60524182/\r\nLAST-MODIFIED:20120508T202000Z\r\nUID:event_dzkfscyrgbgb@meetup.com\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+    http_version: '1.1'
+  recorded_at: Tue, 15 May 2012 02:16:49 GMT
+recorded_with: VCR 2.1.1

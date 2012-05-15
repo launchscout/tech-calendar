@@ -1,7 +1,14 @@
 class FeedsController < ApplicationController
+
   def index
-    feed = Feed.new("Cincinnati Web/Tech Drinkup")
-    another = Feed.new("The Cincinnati Drupal Meetup Group")
-    @feeds = [feed,another]
+    @feeds = Feed.all
+    @feed = Feed.new
   end
+  
+  def create
+    params[:feed][:name] = FeedClient.new(params[:feed][:uri]).name
+    Feed.create(params[:feed])
+    redirect_to :action => "index"
+  end
+
 end

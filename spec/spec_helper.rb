@@ -35,3 +35,12 @@ RSpec.configure do |config|
   config.include(EmailSpec::Helpers)
   config.include(EmailSpec::Matchers)
 end
+
+VCR.configure do |c|
+  c.cassette_library_dir = 'test/fixtures/feeds'
+  c.hook_into :fakeweb
+end
+
+RSpec.configure do |c|
+  c.extend VCR::RSpec::Macros
+end

@@ -4,6 +4,7 @@ gem 'rails', '3.2.2'
 gem 'high_voltage'
 gem 'haml'
 gem 'simple_form'
+gem 'ri_cal'
 
 gem 'sqlite3'
 
@@ -21,6 +22,8 @@ gem 'jquery-rails'
 group :development, :test do
   gem "rspec-rails"
   gem "rspec-given"
+  gem "vcr"
+  gem "fakeweb"
 end
 
 group :test do

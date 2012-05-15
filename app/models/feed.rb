@@ -1,7 +1,2 @@
-class Feed
-  attr_accessor :name
-  
-  def initialize(name)
-    @name = name
-  end
+class Feed < ActiveRecord::Base
 end
