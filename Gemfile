@@ -7,6 +7,7 @@ gem 'simple_form'
 gem 'ri_cal'
 
 gem 'sqlite3'
+gem 'google-api-client'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -24,6 +25,9 @@ group :development, :test do
   gem "rspec-given"
   gem "vcr"
   gem "fakeweb"
+  gem 'pry'
+  gem 'pry-doc'
+  gem 'nokogiri'
 end
 
 group :test do
